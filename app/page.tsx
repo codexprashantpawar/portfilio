@@ -125,6 +125,26 @@ export default function Home() {
 
             <Card className="bg-slate-800/60 border-purple-500/20 backdrop-blur-sm overflow-hidden">
               <div className="h-48 relative">
+                <Image src="https://img.freepik.com/premium-photo/two-hands-holding-mobile-phones-transferring-funds-accounts-isolated-purple-background_407348-3109.jpg?w=826" alt="E-Medical Shop" fill className="object-cover" />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-purple-300">Phone-Pay Clone</CardTitle>
+                <CardDescription>Completed Project</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300">Cloned PhonePe payment UI using Next.js to enhance skills in component-based design and routing.</p>
+              </CardContent>
+              <CardFooter>
+                <Link href="https://github.com/codexprashantpawar/PhonePay" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="border-purple-500/50 hover:bg-purple-900/50">
+                    <Github className="mr-2 h-4 w-4" /> View on GitHub
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
+
+            <Card className="bg-slate-800/60 border-purple-500/20 backdrop-blur-sm overflow-hidden">
+              <div className="h-48 relative">
                 <Image src="https://img.freepik.com/premium-vector/vector-exam-concept-examination-online-test-answer-checklist_508290-3024.jpg?w=826" alt="Online Exam System" fill className="object-cover" />
               </div>
               <CardHeader>
